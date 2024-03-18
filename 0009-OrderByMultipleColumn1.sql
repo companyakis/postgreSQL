@@ -2,7 +2,7 @@ SELECT customer_id, rental_id, rental_date
 
 FROM rental
 
-ORDER BY customer_id, rental_date DESC;
+ORDER BY customer_id, rental_date DESC; --default customer_id ASC
 
 
 /*
