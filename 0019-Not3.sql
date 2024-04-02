@@ -1,0 +1,9 @@
+SELECT * 
+
+FROM employees
+
+WHERE NOT salary BETWEEN 5000 AND 10000
+
+AND NOT job_id = 15
+
+ORDER BY salary DESC;
